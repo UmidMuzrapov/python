@@ -16,7 +16,7 @@ class graphics:
         and a tkinter Canvas object,
         placed insize the Tk object.
         '''
-        self.primary = tkinter.Tk()
+        sel.primary = tkinter.Tk()
         self.primary.title(title)
         self.primary.geometry('%dx%d+%d+%d' % (w, h, 50, 100))
         self.canvas = tkinter.Canvas(self.primary, width=w, height=h, highlightthickness=0)
